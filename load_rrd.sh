@@ -1,0 +1,29 @@
+﻿#!/bin/bash
+#LD_LIBRARY_PATH=/usr/local/rrdtool-1.2.27/lib; export LD_LIBRARY_PATH;
+[ -f /var/www/cacti/plugins/weathermap/configs/cg ] && /home/ogergardt/rrd/load_rrd.pl cg
+[ -f /var/www/cacti/plugins/weathermap/configs/ck ] && /home/ogergardt/rrd/load_rrd.pl ck
+[ -f /var/www/cacti/plugins/weathermap/configs/cv ] && /home/ogergardt/rrd/load_rrd.pl cv
+[ -f /var/www/cacti/plugins/weathermap/configs/dc ] && /home/ogergardt/rrd/load_rrd.pl dc
+[ -f /var/www/cacti/plugins/weathermap/configs/dp ] && /home/ogergardt/rrd/load_rrd.pl dp
+[ -f /var/www/cacti/plugins/weathermap/configs/hm ] && /home/ogergardt/rrd/load_rrd.pl hm
+[ -f /var/www/cacti/plugins/weathermap/configs/hs ] && /home/ogergardt/rrd/load_rrd.pl hs
+[ -f /var/www/cacti/plugins/weathermap/configs/if ] && /home/ogergardt/rrd/load_rrd.pl if
+[ -f /var/www/cacti/plugins/weathermap/configs/kg ] && /home/ogergardt/rrd/load_rrd.pl kg
+[ -f /var/www/cacti/plugins/weathermap/configs/kh ] && /home/ogergardt/rrd/load_rrd.pl kh
+[ -f /var/www/cacti/plugins/weathermap/configs/ko ] && /home/ogergardt/rrd/load_rrd.pl ko
+[ -f /var/www/cacti/plugins/weathermap/configs/kv ] && /home/ogergardt/rrd/load_rrd.pl kv
+[ -f /var/www/cacti/plugins/weathermap/configs/lc ] && /home/ogergardt/rrd/load_rrd.pl lc
+[ -f /var/www/cacti/plugins/weathermap/configs/lg ] && /home/ogergardt/rrd/load_rrd.pl lg
+[ -f /var/www/cacti/plugins/weathermap/configs/lv ] && /home/ogergardt/rrd/load_rrd.pl lv
+[ -f /var/www/cacti/plugins/weathermap/configs/mk ] && /home/ogergardt/rrd/load_rrd.pl mk
+[ -f /var/www/cacti/plugins/weathermap/configs/od ] && /home/ogergardt/rrd/load_rrd.pl od
+[ -f /var/www/cacti/plugins/weathermap/configs/pl ] && /home/ogergardt/rrd/load_rrd.pl pl
+[ -f /var/www/cacti/plugins/weathermap/configs/rv ] && /home/ogergardt/rrd/load_rrd.pl rv
+[ -f /var/www/cacti/plugins/weathermap/configs/sf ] && /home/ogergardt/rrd/load_rrd.pl sf
+[ -f /var/www/cacti/plugins/weathermap/configs/su ] && /home/ogergardt/rrd/load_rrd.pl su
+[ -f /var/www/cacti/plugins/weathermap/configs/sv ] && /home/ogergardt/rrd/load_rrd.pl sv
+[ -f /var/www/cacti/plugins/weathermap/configs/tr ] && /home/ogergardt/rrd/load_rrd.pl tr
+[ -f /var/www/cacti/plugins/weathermap/configs/uz ] && /home/ogergardt/rrd/load_rrd.pl uz
+[ -f /var/www/cacti/plugins/weathermap/configs/vn ] && /home/ogergardt/rrd/load_rrd.pl vn
+[ -f /var/www/cacti/plugins/weathermap/configs/zp ] && /home/ogergardt/rrd/load_rrd.pl zp
+[ -f /var/www/cacti/plugins/weathermap/configs/zt ] && /home/ogergardt/rrd/load_rrd.pl zt
